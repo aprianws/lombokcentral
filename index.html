@@ -4,31 +4,42 @@
 <head>
   <meta charset="utf-8">
   <title>Lombok Central Link</title>
+  
+  <!--External css & js-->
   <link href="style.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="stylem.css" rel="stylesheet">
+  <script src="index.js" type="text/javascript"></script>
+
+  <!--FONT-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!--Header-->
   <section class="header">
     <nav>
-      <img src="image/logo.png">
-      <h1>Lombok Central Link</h1>
-      <div class="nav-link">
+      <p></p>
+      <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
-	  <li><a class="active" href="#">Home</a></li>
+          <li><a class="active" href="#">Home</a></li>
           <li><a href="#">Services</a></li>
-	  <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="#">About</a></li>
         </ul>
       </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     <div class="text-box">
-	<h1>Tour and Travel</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>Aliquam ut tellus turpis.</p>
-	<a href="contact.html" class="button">Contact Us</a>
+      <img src="image/logo.png">
+      <h1>Lombok Central Link</h1>
+      <p>Tour and Travel</p>
+      <a href="contact.html" class="button">Contact Us</a>
     </div>
   </section>
+
+  <!--Content-->
   <section>
     <main>
       <div>
@@ -37,8 +48,22 @@
       </div>
     </main>
   </section>
+
+  <!--Footer-->
   <footer>
     <p>2022 lombokcentrallink</p>
   </footer>
+
+  <script type="text/javascript">
+    var navLink = document.getElementById("navLink");
+  function showMenu(){
+    navLink.style.right = "0";
+  }
+  function hideMenu(){
+    navLink.style.right = "-200px";
+  }
+
+  </script>
+
 </body>
 </html>
