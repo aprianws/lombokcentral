@@ -1,21 +1,27 @@
 @media (max-width: 1000px) {
-	.text-box h1 {
-    	color: #fff;
-    	font-size: 35px;
-	}
 	.nav-link ul li {
 		display: block;
 	}
+	.nav-link ul li a {
+	    color: #fff;
+	    text-decoration: none;
+	    font-size: 40px;
+	    margin: 15;
+	}
+	.nav-link ul {
+		padding: 100px;
+	}
 	.nav-link {
+		display: none;
 		position: absolute;
 		background: #a12cca;
 		height: 100vh;
-		width: 200px;
+		width: 700px;
 		top: 0;
-		right: -200px;
+		right: 0px;
 		text-align: left;
 		z-index: 2;
-		transition: 1s;
+		transition: 2s;
 	}
 	nav .fa-bars {
 		text-align: right;
@@ -23,11 +29,8 @@
 	nav .fa {
 		display: block;
 		color: #fff;
-		font-size: 22px;
-		margin: 10px;
+		font-size: 60px;
+		margin: 20px;
 		cursor: pointer;
-	}
-	.nav-link ul {
-		padding: 30px;
 	}
 }

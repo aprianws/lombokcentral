@@ -4,7 +4,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .header {
-    min-height: 70vh;
+    min-height: 75vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(image/background.jpg);
     background-position: center;
@@ -71,7 +71,7 @@ nav {
     font-size: 55px;
 }
 .text-box p {
-    font-size: 15px;
+    font-size: 25px;
     margin: 5px 0 30px;
     font-style: italic;
 }
@@ -92,38 +92,4 @@ nav {
 }
 nav .fa {
     display: none;
-}
-
-@media (max-width: 700px) {
-    .text-box h1 {
-        color: #fff;
-        font-size: 35px;
-    }
-    .nav-link ul li {
-        display: block;
-    }
-    .nav-link {
-        position: absolute;
-        background: #a12cca;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-    nav .fa-bars {
-        text-align: right;
-    }
-    nav .fa {
-        display: block;
-        color: #fff;
-        font-size: 22px;
-        margin: 10px;
-        cursor: pointer;
-    }
-    .nav-link ul {
-        padding: 30px;
-    }
 }
