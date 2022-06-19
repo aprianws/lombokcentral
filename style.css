@@ -16,3 +16,11 @@ body {
     width: 35%;
     max-width: 230px;
 }
+.grid {
+    width: 27%;
+    display: inline-block;
+}
+.grid img {
+    width: 100%;
+    position: relative;
+}
