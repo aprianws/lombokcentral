@@ -16,14 +16,14 @@ body {
 .header {
     min-height: 450px;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(image/background.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url(image/background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
 
-.header div img{
+.header div img {
     width: 30%;
     max-width: 200px;
     padding-top: 40px;
@@ -33,7 +33,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: #fff;
 }
 
@@ -48,9 +48,7 @@ body {
     font-size: 1.5rem;
 }
 
-.content {
-
-}
+.content {}
 
 .footer {
     background-color: darkorchid;
@@ -58,29 +56,20 @@ body {
     font-size: 1rem;
 }
 
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    margin-top: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button:hover {
+    border: 1px solid #fff;
+    background: #a12cca;
+    transition: 1s;
+}
