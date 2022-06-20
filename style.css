@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .container {
@@ -38,13 +38,13 @@ body {
 
 .header div h1 {
     margin: auto;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .header div p {
     margin: auto;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .button {
@@ -102,4 +102,21 @@ body {
     background-color: darkorchid;
     color: aliceblue;
     font-size: 1.3rem;
+}
+
+@media (max-width: 1000px) {
+    .header div h1 {
+        margin: auto;
+        font-size: 1.7rem;
+    }
+
+    .header div p {
+        margin: auto;
+        font-style: italic;
+        font-size: 1rem;
+    }
+
+    .button {
+        font-size: 1rem;
+    }
 }
