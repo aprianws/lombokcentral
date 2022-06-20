@@ -47,21 +47,13 @@ body {
     font-size: 2rem;
 }
 
-.content {}
-
-.footer {
-    background-color: darkorchid;
-    color: aliceblue;
-    font-size: 1.3rem;
-}
-
 .button {
     display: inline-block;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
-    font-size: 15px;
+    font-size: 1.5rem;
     background: transparent;
     position: relative;
     margin-top: 20px;
@@ -71,4 +63,43 @@ body {
     border: 1px solid #fff;
     background: #a12cca;
     transition: 1s;
+}
+
+.content {}
+
+.image-box {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    border: 2px solid darkorchid;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 10px;
+}
+
+.layanan {}
+
+.image {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.image-box img {
+    position: relative;
+    width: 280px;
+    height: 190px;
+    border: 2px solid darkorchid;
+}
+
+.image-box a {
+    position: relative;
+    border: 2px solid darkorchid;
+}
+
+.footer {
+    background-color: darkorchid;
+    color: aliceblue;
+    font-size: 1.3rem;
 }
