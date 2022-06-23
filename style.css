@@ -24,6 +24,10 @@ h2 {
     margin-top: 40px;
 }
 
+.header, .image-box, .footer {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
 .header {
     min-height: 490px;
     width: 100%;
@@ -90,6 +94,11 @@ h2 {
     margin: auto;
 }
 
+hr {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+}
 
 .image {
     position: relative;
